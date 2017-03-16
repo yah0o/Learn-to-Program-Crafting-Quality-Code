@@ -10,7 +10,8 @@ def num_buses(n):
     2
     """
     bus_capacity = 50
-    
+
+    # calculating number of needed buses
     if n % bus_capacity == 0:
         return n / bus_capacity
     else:
