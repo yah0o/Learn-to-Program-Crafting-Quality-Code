@@ -13,9 +13,9 @@ def num_buses(n):
 
     # calculating number of needed buses
     if n % bus_capacity == 0:
-        return n / bus_capacity
+        return int(n / bus_capacity)
     else:
-        return (n / bus_capacity) + 1
+        return int((n / bus_capacity) + 1)
 
 
 def stock_price_summary(price_changes):
